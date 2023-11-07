@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "resourcename": {
-            "defaultValue": "Shared CRG Name",
+            "defaultValue": "SharedCRGName",
             "type": "String"
         }
     },
@@ -19,10 +19,10 @@
 				{
 					"subscriptionIds" : [
                         {
-                          "id": "/subscriptions/Subscription ID 1"
+                          "id": "/subscriptions/SubscriptionID1"
                         },
                         {
-                          "id": "/subscriptions/Subscription ID 2"
+                          "id": "/subscriptions/SubscriptionID2"
                         }
 					]
 				}
