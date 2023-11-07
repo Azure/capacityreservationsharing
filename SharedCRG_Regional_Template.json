@@ -13,7 +13,7 @@
             "type": "Microsoft.Compute/capacityReservationGroups",
             "apiVersion": "2023-09-01",
             "name": "[parameters('resourcename')]",
-            "location": "Region Name",
+            "location": "SharedCRGRegionName",
             "properties": {
 				"sharingProfile" :
 				{
